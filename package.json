@@ -1,0 +1,32 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "authentication and authorisation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GopalGhate/auth_and_authorisation_nodejs.git"
+  },
+  "author": "Gopal Ghate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GopalGhate/auth_and_authorisation_nodejs/issues"
+  },
+  "homepage": "https://github.com/GopalGhate/auth_and_authorisation_nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.13.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
